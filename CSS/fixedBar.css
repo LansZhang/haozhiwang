@@ -1,0 +1,77 @@
+/*<!--！！！！二维码，固定栏样式部分！！！！-->*/
+
+body {
+    height: 4000px;
+}
+
+/*固定的三个盒子*/
+.fixed-bar {
+    border: 1px solid #efefef;
+    position: fixed;
+    right: 10px;
+    z-index: 20;
+    bottom: 10px;
+}
+
+/*固定盒子里面的div*/
+.fixed-bar > div {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #efefef;
+}
+
+/*第一个盒子：微信*/
+.fixed-bar #weixin {
+    width: 50px;
+    height: 50px;
+    background: url("../images/weixin-bgs.png") no-repeat -159px -51px;
+}
+
+/*第一个盒子里面的a标签(放二维码)*/
+.fixed-bar #weixin a {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+
+/*第一个盒子里面的er，为的是放大的二维码*/
+.fixed-bar #weixin .er {
+    position: absolute;
+    right: 50px;
+    bottom: -55px;
+    display: none;
+}
+
+/* &&&问号部分&&&*/
+.fixed-bar .wenhao-big {
+    text-align: center;
+}
+
+.wenhao-big .wenhao {
+    height: 22px;
+    width: 22px;
+    background-color: #999999;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.showZLL {
+    background-color: deepskyblue;
+    font-size: 17px;
+    color: white;
+}
+
+/*下面的置顶效果*/
+.fixed-bar .zhiding {
+    text-align: center;
+    display: none;
+}
+
+.fixed-bar .zhiding img {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}

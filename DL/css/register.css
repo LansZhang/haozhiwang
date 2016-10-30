@@ -1,0 +1,226 @@
+
+@charset "UTF-8";
+
+/*注册页面开始*/
+.register{
+    height: 700px;
+    width: 100%;
+    background: url("../images/login_bg.jpg") no-repeat top center;
+}
+.registerBox{
+    width: 380px;
+    height: 520px;
+    background-color: white;
+    /*border: 1px solid red;*/
+    position: absolute;
+    top: 15%;
+    right: 10%;
+}
+h1{
+    color: black;
+    font-size: 22px;
+    /*margin-bottom: 30px;*/
+    height: 24px;
+    width: 280px;
+    margin: 40px 40px 20px 40px;
+    position: relative;
+}
+h1 a{
+    height: 17px;
+    width: 70px;
+    display: inline-block;
+    color: #15c288;
+    text-decoration: none;
+    /*position: absolute;*/
+    float: right;
+
+}
+
+h1 a i {
+    height: 17px;
+    width: 22px;
+    display: inline-block;
+    background: url("../images/注册图标.png");
+    float: right;
+    margin-top: 3px;
+}
+.formBox{
+    width: 280px;
+    height: 308px;
+    /*border: 1px solid red;*/
+    margin: 0px 40px;
+}
+/*第一个输入框*/
+.formBox .firstInput{
+    height: 45px;
+    width: 280px;
+    color: #b6b6b6;
+    overflow: hidden;
+    margin-bottom: 27px;
+}
+.formBox .firstInput .inpOne{
+    height: 43px;
+    width: 278px;
+    border: 1px solid gainsboro;
+    position: relative;
+}
+.firstInput .inpOne i{
+    height: 22px;
+    width: 35px;
+    display: inline-block;
+    background: url("../images/mail.jpg") no-repeat;
+    border-right: 1px solid gainsboro;
+    margin-left: 15px;
+    margin-top: 13px;
+}
+.firstInput .inpOne input{
+    border: none;
+    outline-style: none;
+    position: absolute;
+    left: 75px;
+    top:10px;
+    height: 22px;
+
+}
+.firstInput span{
+    font-size: 15px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: red;
+    /*display: none;*/
+}
+
+/*第二个输入框*/
+.formBox .secondInput{
+    height: 45px;
+    width: 280px;
+    color: #b6b6b6;
+    overflow: hidden;
+    margin-bottom: 27px;
+}
+.formBox .secondInput .inpTwo{
+    height: 43px;
+    width: 278px;
+    border: 1px solid gainsboro;
+    position: relative;
+}
+.secondInput .inpTwo i{
+    height: 22px;
+    width: 35px;
+    display: inline-block;
+    background: url("../images/pepole.png") no-repeat;
+    border-right: 1px solid gainsboro;
+    margin-left: 15px;
+    margin-top: 13px;
+}
+.secondInput .inpTwo input{
+    border: none;
+    outline-style: none;
+    position: absolute;
+    left: 75px;
+    top:10px;
+    height: 22px;
+
+}
+.secondInput span{
+    font-size: 15px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: red;
+    /*display: none;*/
+}
+
+/*第三个输入框*/
+.formBox .thirdlyInput{
+    height: 45px;
+    width: 280px;
+    color: #b6b6b6;
+    overflow: hidden;
+    margin-bottom: 27px;
+}
+.formBox .thirdlyInput .inpThree{
+    height: 43px;
+    width: 278px;
+    border: 1px solid gainsboro;
+    position: relative;
+}
+.thirdlyInput .inpThree i{
+    height: 22px;
+    width: 35px;
+    display: inline-block;
+    background: url("../images/lock1.png") no-repeat;
+    border-right: 1px solid gainsboro;
+    margin-left: 15px;
+    margin-top: 13px;
+}
+.thirdlyInput .inpThree input{
+    border: none;
+    outline-style: none;
+    position: absolute;
+    left: 75px;
+    top:10px;
+    height: 22px;
+
+}
+.thirdlyInput span{
+    font-size: 15px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: red;
+    /*display: none;*/
+}
+
+/*验证码*/
+.verification{
+    height: 50px;
+    width: 280px;
+}
+.verification .left{
+    height: 50px;
+    width: 130px;
+    border: 1px solid gainsboro;
+    float: left;
+}
+.verification i{
+    height: 50px;
+    width: 130px;
+    display: inline-block;
+    background: url("../images/验证码.jpg") no-repeat;
+    float: right;
+}
+
+/*阅读*/
+.read{
+    height: 30px;
+    font-size: 15px;
+    color: #999999;
+    margin-top: 10px;
+}
+
+/*注册按钮*/
+.enter {
+    height: 50px;
+    width: 280px;
+    display: inline-block;
+    background-color:#15c288;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    margin-top:15px;
+}
+
+/*最后小图标*/
+.verification ul{
+    list-style: none;
+    margin-left: -15px;
+    margin-top: 30px;
+}
+.last li{
+    float: left;
+    margin-left: 5px;
+}

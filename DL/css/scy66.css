@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+/*CSS初始化*/
+body, p, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd {
+
+    font-size: 12px;
+    font-family: Microsoft YaHei,"微软雅黑",SimSun,"宋体";
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+input,img {
+
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    outline-style: none;
+}
+
+.w {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    content: " ";
+    height: 0;
+    line-height: 0;
+    clear: both;
+    display: block;
+    visibility: hidden;
+}
+.clearfix {
+    zoom: 1;
+}
+
+i,s {
+    font-style: normal;
+    text-decoration: none;
+}
+
+/*footer部分开始*/
+.footer{
+    height:120px;
+    background: #515151;
+    line-height: 22px;
+    border-bottom: 1px solid #5F5F5F ;
+}
+.footer .w .row{
+   padding:32px 30px;
+}
+.footer .w .row div{
+    float: left;
+    padding-left: 80px;
+    color: white;
+}
+.footer .w .row .col-md-4mid{
+   padding-top: 10px;
+
+}
+.footer .w .row .col-md-4mid span{
+    padding: 0 10px;
+}
+.footer .w .row .col-md-4mid span a{
+
+    color: white;
+}
+.footer .w .row .col-md-4mid span a:hover{
+
+    color: #15c288;
+}
+
+.footer .w .row .col-md-4mid .con{
+    padding-left: 10px;
+    color: #909990;
+}
+
+.footer .w .row .col-md-4mid .con:hover{
+    color: #15c288;
+    font-size: 14px
+}
+.footer .w .row .col-md-4-rt{
+   margin-top: 10px;
+   font-size: 15px;
+}
+
+.footer .w .row.hz-icon{
+}
+
+
+/*friendlinks部分开始*/
+.friendlinks{
+    height:60px;
+    background: #515151;
+    line-height: 22px;
+}
+.friendlinks .w{
+    padding-left: 210px;
+    font-size: 13px;
+    color: #909990;
+}
+.friendlinks .w a{
+    font-size: 13px;
+    color: #909990;
+}
+.friendlinks .w .content{
+    font-size: 13px;
+    color: #909990;
+   padding-top: 10px;
+
+}
+.friendlinks .w .content a{
+    font-size: 13px;
+    color: #909990;
+    padding:10px;
+}
+.friendlinks .w .content a:hover{
+    color: #15c288;
+}
+.friendlinks .w .content .lianj{
+    font-size: 13px;
+    color: #909990;
+}

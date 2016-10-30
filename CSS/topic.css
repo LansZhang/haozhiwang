@@ -1,0 +1,125 @@
+
+/*topic  ��ʼ����*/
+.topic{
+    background-color:#F6F6F6;
+    height: 468px;
+    margin-top:60px;
+}
+
+.topic .w .topic-top{
+    height: 72px;
+    border-bottom: 1px solid #efefef;
+    position: relative;
+
+
+}
+.topic-top h2{
+    width: 136px;
+    background-color:#F6F6F6;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    color: #565656;
+    position: absolute;
+    top: 55px;
+    left: 50%;
+    margin-left: -68px;
+
+
+}
+
+.topic .w .photo{
+    margin-top: 48px;
+    height: 280px;
+    position: relative;
+
+    overflow: hidden;
+
+}
+.topic .w .photo .box{
+    width: 5000px;
+    position: absolute;
+}
+.topic .w .photo li {
+    float: left;
+    margin-left: 5px;
+    width: 280px;
+    height: 280px;
+    position: relative;
+    overflow: hidden;
+}
+.topic .w .photo li img{
+
+    width: 280px;
+    height: 280px;
+}
+.topic .w .photo .buttom{
+    font-size: 12px;
+    font-family:"΢���ź�";
+    color: white;
+    position: absolute;
+    top: 206px;
+    width:280px ;
+    text-align: center;
+
+}
+.topic .w .photo .buttom h3{
+    font-size: 16px;
+    line-height: 23px;
+    color:#EFEFEF;
+
+}
+.topic .w .photo .buttom .wenzi{
+    color:#EFEFEF;
+    margin-top: 11px;
+}
+.topic .w .photo .buttom .wenzi .left{
+    float: left;
+    margin-left: 60px;
+}
+.topic .w .photo .buttom .wenzi .right{
+    float: right;
+    margin-right: 60px;
+}
+
+.topic .w #arr {
+    display: none;
+}
+
+.topic .w #arr  span{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    margin-top: -30px;
+    background: #000;
+    cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: '����';
+    font-size: 30px;
+    color: #fff;
+    opacity: 0.3;
+    border: 1px solid #fff;
+}
+
+.topic .w #arr #rightarr {
+    right: 5px;
+    left: auto;
+}
+
+.topic .w input{
+    margin-top: 20px;
+    height: 28px;
+    width: 60px;
+    border: 1px solid #999999;
+    color: #999999;
+    border-radius:30px;
+    float: right;
+    text-align: center;
+}
+/*topic  ��������*/
+
+

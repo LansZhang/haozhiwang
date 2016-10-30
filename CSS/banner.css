@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+/*banner图片部分*/
+.banner .pic-one {
+    background: url("../images/banner_picture_1.jpg") no-repeat -280px 0;
+}
+.banner .pic-two {
+    background: url("../images/banner_picture_2.jpg") no-repeat -280px 0;
+}
+.banner .pic-three {
+    background: url("../images/banner_picture_3.jpg") no-repeat -280px 0;
+}
+.banner .pic-four {
+    background: url("../images/banner_picture_4.jpg") no-repeat -280px 0;
+}
+.banner .pic-five {
+    background: url("../images/banner_picture_5.jpg") no-repeat -280px 0;
+}
+
+.banner {
+    position: relative;
+    width: 1349px;
+    height: 420px;
+    overflow: hidden;
+}
+
+.banner  ul {
+    height: 420px;
+    width: 10000px;
+    position: absolute;
+}
+
+.banner ul li {
+    width:1349px;
+    height:420px;
+    float: left;
+    cursor: pointer;
+
+}
+
+
+
+/*banner图片下面的五个小图标（白色）部分*/
+.banner  ol {
+    position: absolute;
+    bottom: 35px;
+    margin-left: 50%;
+    left: -95px;
+}
+
+.banner ol li {
+    height:11px;
+    width: 11px;
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    float: left;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.round {
+    background-color: lightgray;
+}
+
+
+/*banner上面的左右键头部分*/
+
+.banner .arrow {
+    display: none;
+}
+
+.arrow  span{
+    position: absolute;
+    display: inline-block;
+    height: 86px;
+    width: 30px;
+    line-height: 86px;
+    text-align: center;
+    font-size: 150px;
+    color: lightgray;
+    margin-top: 167px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.arrow  span:hover {
+    opacity: 1;
+}
+
+.arrow .right-arrow{
+    right:25px;
+}
+
+.arrow .left-arrow{
+    left:10px;
+}
+
+
+
+/*banner部分学习人数介绍*/
+
+.banner .people .nnt{
+    height: 147px;
+    width: 253px;
+    position: absolute;
+    right:-602px;
+    top: 105px;
+    border: transparent;
+    border-radius: 10px;
+    background: rgba(5, 5, 5, 0.11);
+}
+
+ .people .nnt span,i,strong {
+    display: inline-block;
+}
+
+.people .nnt .now {
+    color:white;
+    width: 42px;
+    height: 18px;
+    line-height: 18px;
+    position: absolute;
+    top:18px;
+    left: 22px;
+    border-left: 5px solid #FD7B53;
+    padding-left: 10px;
+}
+
+ .people .nnt strong {
+     font-size: 64px;
+     font-family: "黑体";
+     font-weight:bold;
+     color: white;
+     position: absolute;
+     top: 48px;
+     left: 25px;
+}
+
+ .people .nnt i {
+    float: right;
+    margin-right: 35px;
+     margin-top: 45px;
+    color: white;
+}
+
+.banner .people .study {
+    height: 48px;
+    width: 253px;
+    line-height: 48px;
+    position: absolute;
+    right: 95px;
+    bottom: 105px;
+    background-color: #FD7B53;
+    border-radius: 50px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+

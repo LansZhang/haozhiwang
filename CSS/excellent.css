@@ -1,0 +1,167 @@
+@charset "UTF-8";
+/*精品课程部分开始*/
+.excellent .title {
+    height: 72px;
+    border-bottom: 1px solid #efefef;
+    position: relative;
+}
+.excellent .title h2 {
+    width: 136px;
+    background-color: #fff;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    color: #565656;
+    position: absolute;
+    top: 55px;
+    left: 50%;
+    margin-left: -68px;
+}
+
+/*导航栏开始*/
+.excellent .nav {
+    height: 34px;
+    margin-top: 48px;
+}
+.excellent .nav ul {
+    margin-left: 160px;
+}
+.excellent .nav li {
+    float: left;
+    margin-right: 20px;
+}
+.excellent .nav a {
+    height: 34px;
+    display: inline-block;
+    line-height: 34px;
+    padding: 0 12px;
+    border-radius: 2px;
+    
+}
+.excellent .nav a:hover {
+    background-color: #15c288;
+    color: white;
+}
+.excellent .current {
+    background-color: #15c288;
+    color: white;
+}
+
+/*课程展示部分*/
+.excellent .contents {
+    height: 529px;
+    margin-top: 25px;
+    overflow: hidden;
+}
+.excellent .content {
+    height: 529px;
+}
+
+/*课程展示左侧盒子*/
+.excellent .contents .lt_content {
+    width: 270px;
+    height: 529px;
+    float: left;
+}
+.excellent .lt_content .pic {
+    width: 270px;
+    height: 421px;
+    overflow: hidden;
+}
+.excellent .contents .info {
+    padding-left: 6px;
+}
+.excellent .contents .class_title {
+    height: 42px;
+}
+.excellent .contents .class_title a {
+    font-weight: 700;
+    display: inline-block;
+    height: 20px;
+    margin-top: 12px;
+}
+.excellent .contents .class_title a:hover {
+    color: #15c288;
+}
+.excellent .contents .user_lt img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.excellent .contents .user_infor a {
+    float: left;
+}
+.excellent .contents .user_infor a:hover {
+    color: #15c288;
+}
+.excellent .contents .user_infor .daren_icon {
+    float: left;
+    width: 14px;
+    height: 14px;
+    /*display: inline-block;*/
+    background: url(../images/darens-icon.png) no-repeat;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+.excellent .contents .user_infor .dapin_icon {
+    float: left;
+    width: 14px;
+    height: 14px;
+    /*display: inline-block;*/
+    background: url(../images/dapinpais-icon.png) no-repeat;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+.excellent .contents .user_infor .money {
+    float: right;
+    color: #e99692;
+    line-height: 20px;
+}
+.excellent .contents .user_infor .free {
+    float: right;
+    color: #15c288;
+    line-height: 20px;
+}
+.excellent .contents .no_icon {
+    display: none;
+}
+
+/*课程展示右侧盒子*/
+.excellent .contents .rt_content {
+    width: 870px;
+    height: 529px;
+    float: left;
+
+}
+.excellent .contents .rt_content .pic {
+    width: 270px;
+    height: 152px;
+    overflow: hidden;
+}
+.excellent .contents .rt_content li {
+    width: 270px;
+    height: 240px;
+    margin-left: 20px;
+    float: left;
+}
+
+
+
+/*更多*/
+.excellent .gengduo {
+    height: 27px;
+}
+.excellent .gengduo a {
+    float: right;
+    line-height: 25px;
+    font-size: 12px;
+    padding: 0 10px;
+    border: 1px solid #999;
+    border-radius: 15px;
+}
+.excellent .gengduo a:hover {
+    color: #15c288;
+    border: 1px solid #15c288;
+}
+/*精品课程结束*/

@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+/*more开始*/
+.more{
+    height: 437px;
+    background:url("../images/index-bottom.jpg") no-repeat;
+}
+.more .w{
+    height: auto;
+    height: 437px;
+    position: relative;
+}
+.more .w .rowe{
+    padding-top: 50px;
+}
+.more .w .rowe li{
+    float: left;
+    padding-left: 180px;
+}
+.more .w .rowe li p{
+    font-family: "微软雅黑 Light";
+    font-size: 20px;
+    color: white;
+    margin-top: 25px;
+
+}
+.more .w .more-footer{
+     height: 50px;
+     width: 300px;
+     border: 1px solid  white;
+     border-radius:30px;
+      position: absolute;
+      top: 330px;
+      left: 430px;
+}
+.more .w .more-footer:hover{
+    /*background-color: white;*/
+}
+
+.more .w .more-footer a{
+    font-family: "微软雅黑 Light";
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    left: 34px;
+    top: 10px;
+}
+.more .w .more-footer a:hover{
+    color: #15c288;
+}
+
+
+/*footer部分开始*/
+.footer{
+    height:120px;
+    background: #515151;
+    line-height: 22px;
+    border-bottom: 1px solid #5F5F5F ;
+}
+.footer .w .row{
+   padding:32px 30px;
+}
+.footer .w .row div{
+    float: left;
+    padding-left: 80px;
+    color: white;
+}
+.footer .w .row .col-md-4mid{
+   padding-top: 10px;
+
+}
+.footer .w .row .col-md-4mid span{
+    padding: 0 10px;
+}
+.footer .w .row .col-md-4mid span a{
+
+    color: white;
+}
+.footer .w .row .col-md-4mid span a:hover{
+
+    color: #15c288;
+}
+
+.footer .w .row .col-md-4mid .con{
+    padding-left: 10px;
+    color: #909990;
+}
+
+.footer .w .row .col-md-4mid .con:hover{
+    color: #15c288;
+    font-size: 14px
+}
+.footer .w .row .col-md-4-rt{
+   margin-top: 10px;
+   font-size: 15px;
+}
+
+.footer .w .row.hz-icon{
+}
+
+
+/*friendlinks部分开始*/
+.friendlinks{
+    height:60px;
+    background: #515151;
+    line-height: 22px;
+}
+.friendlinks .w{
+    padding-left: 210px;
+    font-size: 13px;
+    color: #909990;
+}
+.friendlinks .w a{
+    font-size: 13px;
+    color: #909990;
+}
+.friendlinks .w .content{
+    font-size: 13px;
+    color: #909990;
+   padding-top: 10px;
+
+}
+.friendlinks .w .content a{
+    font-size: 13px;
+    color: #909990;
+    padding:10px;
+}
+.friendlinks .w .content a:hover{
+    color: #15c288;
+}
+.friendlinks .w .content .lianj{
+    font-size: 13px;
+    color: #909990;
+}
